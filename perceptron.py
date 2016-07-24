@@ -5,6 +5,9 @@
 #
 # Lets teach the computer how to understand an "OR" decision
 #
+# Based on the tutorial by: Danilo Bargen
+#
+
 from random import choice
 from numpy import array, dot, random
 
@@ -74,6 +77,10 @@ for i in xrange(n):
 
     w +=weight
     # w = array([ 0.66389729,  0.55242224,  0.18784826])
+
+# And that's already everything we need in order to train the perceptron!
+# It has now "learned" to act like a logical OR function:
+
 
 for x, _ in training_data:
     result = dot(x, w)
