@@ -8,6 +8,14 @@
 # Based on the tutorial by: Danilo Bargen
 #
 
+# From Wikipedia:
+
+# In machine learning, the perceptron is an algorithm for supervised learning of
+# binary classifiers: functions that can decide whether an input (represented by
+# a vector of numbers) belongs to one class or another.
+# The algorithm allows for online learning, in that it processes #elements in
+# the training set one at a time.
+
 from random import choice
 from numpy import array, dot, random
 
